@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+/*kolom*/
+.kolom {
+    font-family: 'Open Sans',serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+.kolom--read {
+    padding: 20px 0 20px 120px;
+    border-bottom: 2px solid #E54210;
+    min-height: 140px;
+}
+
+.kolom__img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+    left: 0;
+    top: 20px;
+}
+
+.kolom__img img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.kolom__title {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.kolom__author {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.kolom__author--read {
+    font-weight: 700;
+    font-size: 22px;
+    color: #E54210;
+    margin-bottom: 5px;
+}
+
+.kolom__position {
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.kolom__description {
+    font-size: 14px;
+}
+
+.kolom__description--read {
+    font-size: 12px;
+    line-height: 1.6;
+}
+

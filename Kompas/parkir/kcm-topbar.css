@@ -1,0 +1,166 @@
+/*topbar*/
+@import url(http://fonts.googleapis.com/css?family=Homenaje);
+.kcm-topbar{background:#ebebeb;padding:0;border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;position:fixed;top:0;width:1100px;z-index:8010;text-align:center}
+.kcm-topbar ul{margin:0;padding:0;}
+.kcm-topbar ul li{display:inline-block;position:relative;padding: 7px 33px;font-family: 'Homenaje', sans-serif;font-weight:400;font-size: 17px;color: #777;text-transform:uppercase;}
+.kcm-topbar ul .active{color: #000;}
+.kcm-topbar ul li a{color:inherit!important;text-decoration:none;-webkit-transition: all .3s; -moz-transition: all .3s; transition: all .3s;}
+.kcm-topbar ul li a:hover{text-decoration:none;color: #000!important;}
+.kcm-topbar ul li:last-child { padding: 7px 0 7px 33px;}
+.kcm-topbar ul li:first-child { padding: 7px 33px 7px 0;}
+.pt4{padding-top:40px!important;}
+/*srink*/
+.kcm-topbar{position:absolute;z-index:12;width:100%;margin-bottom:3px;top:0;left:0;}
+
+.is-scroll .pt4{
+	padding-top:233px!important;
+}
+.is-scroll .kcm-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 12;
+    margin: 0!important;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.2);
+}
+
+.is-scroll .header-top {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.is-scroll .kcm-bottom-head {
+    width: 100%;
+    background: #F5F5F5;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 0px solid #F5F5F5;
+    height: 34px;
+    margin: 0;
+}
+
+.is-scroll .kcm-nav {
+    display: block;
+}
+
+.is-scroll .kcm-nav {
+    display: block;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+.is-scroll .header-top-center.mb2{
+	margin-bottom: 0px!important;
+}
+.is-scroll .header-top-center img{
+	height: 50px;
+}
+.is-scroll .kcm-nav li ul {
+    left: 0;
+    top: 33px;
+    border-top: 0;
+    width: 1100px;
+}
+.is-scroll .kcm-nav > li:hover > a:after {
+	content: none;
+}
+
+.is-scroll .header-top-right .msmall {
+    display: none;
+}
+
+.header-top-center a {
+    display: block;
+    text-align: center;
+}
+
+.is-scroll .kcm-header {
+	-webkit-animation: movedown ease-in 0.2s;
+	-moz-animation: movedown ease-in 0.2s;
+	-ms-animation: movedown ease-in 0.2s;
+	-o-animation: movedown ease-in 0.2s;
+	animation: movedown ease-in 0.2s;
+}
+
+@-webkit-keyframes movedown
+{
+	0% {
+		top: -80px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+@-moz-keyframes movedown
+{
+	0% {
+		top: -80px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+
+@keyframes movedown
+{
+	0% {
+		top: -80px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+.is-scroll .header-top-center a:after{
+	content:"";
+	position: absolute;
+	bottom: 3px;
+	left: 110px;
+	width: 120px;
+	height: 12px;
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+.is-scroll .header-top-left{
+	padding:3px 0;
+}
+.is-scroll .kcm-tag {
+    display: none;
+}
+
+.is-scroll .header-top-center h1.mt1 {
+	margin-top: 0!important;
+	font-size: 37px;
+}
+.is-scroll .header-top-right form {
+	margin: 0;
+}
+.is-scroll .msmall {
+	display: none;
+}
+.is-scroll .kcm-nav li ul.active {
+	visibility: hidden;
+}
+.is-scroll .kcm-nav li:hover ul {
+	visibility: visible;
+}
+.is-scroll .kcm-nav li ul.active {
+	width: 100%;
+}
+.is-scroll .ads__skin--scroll {
+    top: 85px;
+}
+.kcm-skin-ads {
+    top: 37px;
+}
+@media (max-width: 1100px) {
+  .is-scroll .kcm-header,
+  .kcm-topbar {
+    width: 1100px;
+  }
+}

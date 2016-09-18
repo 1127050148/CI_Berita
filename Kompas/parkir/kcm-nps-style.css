@@ -1,0 +1,287 @@
+.class-option-nps input[type=radio] {
+    display: none
+}
+.btn-radio-nps,
+.value-des {
+    display: inline-block
+}
+.class-option-nps input[type=radio]+label {
+    color: #292321;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px
+}
+.album-count:before,
+.box-ter-thumb:after,
+.news-video-terkait .time:before {
+    font-family: icomoon
+}
+.class-option-nps input[type=radio]+label span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1px;
+    padding-right: 0;
+    border: 6px solid #5EAADE;
+    color: #FFF;
+    background: #5EAADE;
+    box-shadow: inset 0px 1px 0px #5EAADE, 0px 3px 0px 0px #696969, 0px 6px 3px #9C9191;
+}
+.class-option-nps input[type=radio]:checked+label span,
+input[type=radio]+label span:hover {
+    background-color: #5595C1;
+    color: #fff;
+    border-color: #5595C1;
+    box-shadow: none;
+    margin-bottom: -10px
+}
+.class-option-nps input[type=radio]+label span,
+.class-option-nps input[type=radio]:checked+label span {
+    -webkit-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    transition: all .1s linear
+}
+.nps {
+    margin: 25px 0;
+    padding-top: 10px;
+    border-top: 1px solid #dfdfdf;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden
+}
+.title-nps {
+    font-size: 25px;
+    margin-bottom: 15px
+}
+.value-des {
+    margin-top: 20px;
+    /* padding: 0 10px */
+}
+.value-des.lf,
+.value-des.rt {
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+    font-weight: 700
+}
+.value-des.lf {
+    width: 265px;
+    color: #C1C1C1;
+    text-align: left;
+    padding: 0 !important;
+}
+.value-des.rt {
+    color: #C1C1C1;
+    text-align: right;
+    width: 114px;
+    padding: 0;
+}
+.news-video-terkait .time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 4px 6px 4px 25px;
+    font-size: 12px;
+    z-index: 2
+}
+.news-video-terkait .time:before {
+    position: absolute;
+    width: auto;
+    content: "\e906";
+    color: rgba(255, 255, 255, 1);
+    left: 5px;
+    font-size: 15px;
+    bottom: 2px
+}
+.news-video-terkait {
+    margin-top: 10px;
+    position: relative
+}
+
+.album-count:before,
+.news-foto-terkait .box-ter-thumb:after {
+    content: "\e801"
+}
+.news-foto-terkait a:hover .box-ter-thumb:after,
+.news-video-terkait a:hover .box-ter-thumb:after {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, .48)
+}
+.news-foto-terkait,
+.news-video-terkait {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px
+}
+.news-foto-terkait img,
+.news-video-terkait img {
+    width: 100%
+}
+.album-count {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 4px 6px 4px 25px;
+    font-size: 12px;
+    z-index: 2
+}
+.album-count:before {
+    position: absolute;
+    width: auto;
+    color: rgba(255, 255, 255, 1);
+    left: 5px;
+    font-size: 15px;
+    bottom: 2px
+}
+.news-foto-terkait {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+.box-ter-thumb {
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    position: relative
+}
+.title-terkait-thumb {
+    margin-top: 2px;
+    display: block;
+    font-size: 12px;
+    max-height: 46px;
+    overflow: hidden
+}
+.news-video-terkait a {
+    display: block
+}
+.class-option-nps input[type=radio]+label span.yellow {
+    border-color: #5EAADF;
+    color: #FFF;
+    box-shadow: inset 0px 1px 0px #5EAADE, 0px 3px 0px 0px #696969, 0px 6px 3px #9C9191;
+    background: #5DAADE;
+}
+.class-option-nps input[type=radio]+label span.green {
+    border-color: #5DAADE;
+    color: #FFF;
+    box-shadow: inset 0px 1px 0px #5DAADE, 0px 3px 0px 0px #696969, 0px 6px 3px #9C9191;
+    background: #5EAADF;
+}
+.class-option-nps input[type=radio]:checked+label span.yellow,
+input[type=radio]+label span.yellow:hover {
+    background: #5595C1;
+    border-color: #5595C1;
+    box-shadow: none;
+    margin-bottom: -10px
+}
+.class-option-nps input[type=radio]:checked+label span.green,
+input[type=radio]+label span.green:hover {
+    background: #5595C1;
+    border-color: #5595C1;
+    box-shadow: none
+}
+.modal-form label {
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 5px 0 5px 10px;
+    background: #fff;
+    width: 49%;
+    text-transform: lowercase;
+}
+
+.modal-form label span {
+    display: inline-block;
+}
+
+
+.modal-form label span:first-letter {
+    text-transform:uppercase;
+}
+
+.modal-title {
+    padding: 20px;
+    background: #f5f5f5;
+    color: #4C4B4B
+}
+.warning.modal-title {
+    border-left: 5px solid #E94F1D
+}
+.warning .modal-form .submit {
+    background: #E94F1D
+}
+.success.modal-title {
+    border-left: 5px solid #64D448
+}
+.modal-form {
+    padding: 15px;
+    margin-top: 5px;
+    background: #f5f5f5;
+    float: left;
+    width: 100%
+}
+.modal-form .submit {
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    background: #F9A706;
+    float: right
+}
+.modal-nps textarea {
+    border: none;
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 12px;
+    padding: 10px
+}
+.modal-nps {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    opacity: 0
+}
+.modal-nps.show {
+    height: 360px;
+    margin-top: 40px!important;
+    opacity: 1!important
+}
+.modal-form .submit.green {
+    background: #64D448
+}
+.value-des.nt {
+    text-align: center;
+    font-weight: 700;
+    margin: 15px 15px 15px 7px;
+    color: #F9A706;
+    float: left
+}
+.netral.modal-title {
+    border-left: 5px solid #F9A706;
+    margin: -10px 0
+}
+.modal-title.thanks {
+    border-left: 5px solid #5EAADE;
+    display: none;
+    margin: 40px 0
+}
+.nps * {
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

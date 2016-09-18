@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("http://assets.kompas.com/data/2013/kompascom4/fonts/open-sans-fontfacekit/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://assets.kompas.com/data/2013/kompascom4/fonts/open-sans-fontfacekit/OpenSans-Regular-webfont.woff") format("woff"), url("http://assets.kompas.com/data/2013/kompascom4/fonts/open-sans-fontfacekit/OpenSans-Regular-webfont.ttf") format("truetype"), url("http://assets.kompas.com/data/2013/kompascom4/fonts/open-sans-fontfacekit/OpenSans-Regular-webfont.svg#OpenSansSemibold") format("svg");
+}
+
+.kcm-branzview {
+    display: block;
+    background: #F5F5F5;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kcm-branzview img {
+    width: auto;
+    max-width: 100%;
+}
+
+p.the-branz {
+    color: #22add6 !important;     
+    font-family: 'opensans',Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: block;
+    margin: 0 0 5px 0;
+}
+.kcm-branzview .brandz-logo-wide.left {
+    float: none !important;
+    margin-top: 10px;
+}
+
+.kcm-branzview span {
+    font-family: 'opensans',Arial, Helvetica, sans-serifr;
+    font-size: 13px;
+    display: block;
+}

@@ -1,0 +1,73 @@
+
+<!-- saved from url=(0112)http://pixel.mathtag.com/sync/iframe?sync=auto&mt_lim=5&mt_uuid=02785732-94a7-4d00-be1f-0c87d412701b&no_iframe=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+<script type="text/javascript">
+/**/
+(function(){
+var sync_4815162342 = function()
+{
+this.urls = [
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=0:5&mt_cb=384388&mop_top="],
+[4, "http://cm.g.doubleclick.net/pixel?google_nid=mediamath&google_cm&google_hm=AnhXMpSnTQC-HwyH1BJwGw"],
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=1:5&mt_cb=586221&mop_top=4:1465438234|"],
+[9, "http://pixel.rubiconproject.com/tap.php?v=4222&nid=1512&put=02785732-94a7-4d00-be1f-0c87d412701b"],
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=2:5&mt_cb=905414&mop_top=4:1465438234|9:1465438234|"],
+[13, "http://ib.adnxs.com/getuid?https://sync.mathtag.com/sync/img?mt_exid=13&mt_mminit=1&mt_exuid=$UID"],
+[45, "http://cs.gssprt.jp/yie/ld/cs?dspid=tone&uid=02785732-94a7-4d00-be1f-0c87d412701b"],
+[5, "http://jp-u.openx.net/w/1.0/sd?id=536872786&val=02785732-94a7-4d00-be1f-0c87d412701b"],
+[0, "http://pixel.mathtag.com/misc/img?mop_seq=5:5&mt_cb=280262&check=02785732-94a7-4d00-be1f-0c87d412701b&mop_top=4:1465438234|9:1465438234|13:1465438234|45:1465438234|5:1465438234|"]
+]
+   this.progress = 0;
+   var self = this;
+   var tims = "";
+   var errs = "";
+   this.sync = function(i)
+   {
+       var e = document.createElement("img");
+       var now = new Date();
+       if (e.addEventListener)
+       {
+	   e.addEventListener('load', function() {
+	       var temp = new Date().getTime() - now.getTime(); tims += self.urls[i][0]+':'+temp+"|";
+	   });
+	   e.addEventListener('error', function() {
+	       var temp = new Date().getTime() - now.getTime(); errs += self.urls[i][0]+':'+temp+"|";
+	   });
+       }
+       e.src = self.urls[i][1];
+   }
+   this.batch = function()
+   {
+      for (var i = self.progress; i < self.urls.length; ++i)
+      {
+	 self.sync(i);
+      }
+   }
+   this.final = function()
+   {
+      var e = document.createElement("img");
+      e.src = self.urls[self.urls.length-1][1]+"&final&timings="+tims+"&errors="+errs;
+   }
+   this.some = function(howmany)
+   {
+      var count = 0;
+      for (var i = self.progress; i < self.urls.length && count < howmany; ++i)
+      {
+         self.sync(i);
+	 self.progress++;
+         count++;
+      }
+   }
+}
+var s_4815162342 = new sync_4815162342();
+s_4815162342.some(1);
+setTimeout(s_4815162342.some(2), 1000);
+setTimeout(s_4815162342.batch, 3000);
+setTimeout(s_4815162342.final, 10000);
+
+})();
+
+</script>
+
+
+</body></html>
