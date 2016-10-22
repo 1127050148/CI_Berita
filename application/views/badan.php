@@ -1,21 +1,20 @@
 <div class="container">
       <!-- Example row of columns -->
       <div class="row">
+        <?php 
+            foreach ($daftar as $key) {
+        ?>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          
+          <h2><?php echo $key['judul']; ?></h2>
+          <h5>Sumber: <b> <?php echo $key['sumber']; ?></b></h5>
+          <hr>
+          <p><?php echo substr($key['isi'], 0, 200); ?></p>
+          <p><a class="btn btn-default" href="<?php echo base_url(); ?>home/readmore/<?php echo $key['id_berita_baru'] ?>" role="button">View details &raquo;</a></p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
+        <?php 
+            }
+        ?>
       </div>
 
       <hr>
@@ -24,4 +23,9 @@
           <p>&copy; Siti Nurpadilah (1127050148).</p>
         </footer>
       </center>
-    </div> <!-- /container -->
+</div> <!-- /container -->
+
+<?php 
+    // echo $isi= substr($s['isi_ber'],0,300);
+    // $isi = substr($s['isi_ber'],0,strrpos($isi,"")); 
+?>

@@ -30,40 +30,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">News Classifier</a>
+          <a class="navbar-brand" href="#">Klasifikasi Berita</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="<?php echo base_url(); ?>index.php/home">Home</a></li>
-            <li><a href="<?php echo base_url(); ?>index.php/home/classification">Classification</a></li>
+            <li><a href="<?php echo base_url(); ?>home">Beranda</a></li>
+            <li><a href="<?php echo base_url(); ?>home/classification">Klasifikasi</a></li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Berita <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Politik</a></li>
-                    <li><a href="#">Olahraga</a></li>
-                    <li><a href="#">Pendidikan</a></li>
-                    <li><a href="#">Otomotif</a></li>
-                    <li><a href="#">Umum</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/politik">Politik</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/olahraga">Olahraga</a></li>
+                    <li><a href="pendidikan">Pendidikan</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/otomotif">Otomotif</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/umum">Umum</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Source<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sumber<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Detik</a></li>
-                    <li><a href="#">Kompas</a></li>
-                    <li><a href="#">Liputan 6</a></li>
-                    <li><a href="#">Tribun</a></li>
-                    <li><a href="#">Viva News</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/detik">Detik</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/kompas">Kompas</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/liputan6">Liputan 6</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/tribunNews">Tribun</a></li>
+                    <li><a href="<?php echo base_url(); ?>home/vivaNews">Viva News</a></li>
                 </ul>
             </li>
-            <li><a href="#">Graphics</a></li>
+            <li><a href="<?php echo base_url(); ?>home/result">Tabel Hasil Klasifikasi</a></li>
+            <li><a href="#">Grafik</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
+          <!-- <form class="navbar-form navbar-right">
             <div class="form-group">
-              <input type="text" placeholder="Keyword" class="form-control">
+              <input type="text" placeholder="Kata Kunci" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Find</button>
-          </form>
+            <button type="submit" class="btn btn-success">Cari</button>
+          </form> -->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
